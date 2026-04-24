@@ -1,0 +1,30 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# 기본 들여쓰기
+indent_style = space
+indent_size = 4
+
+# GDScript
+[*.gd]
+indent_style = space
+indent_size = 4
+
+# JSON / config
+[*.{json,md,txt}]
+indent_style = space
+indent_size = 2
+
+# YAML (있다면)
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Windows용 bat/cmd
+[*.{bat,cmd}]
+end_of_line = crlf
