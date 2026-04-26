@@ -1,0 +1,37 @@
+[
+  {
+    "id": "initial_intellect",
+    "name": "초기 지력 증가",
+    "effect": "initial_intellect",
+    "value": 5,
+    "cost": 5
+  },
+  {
+    "id": "initial_stamina",
+    "name": "초기 체력 증가",
+    "effect": "initial_stamina",
+    "value": 5,
+    "cost": 5
+  },
+  {
+    "id": "initial_charm",
+    "name": "초기 매력 증가",
+    "effect": "initial_charm",
+    "value": 5,
+    "cost": 5
+  },
+  {
+    "id": "weekday_growth",
+    "name": "평일 성장 증가",
+    "effect": "weekday_growth",
+    "value": 0.15,
+    "cost": 8
+  },
+  {
+    "id": "extra_weekend_action",
+    "name": "주말 행동 추가",
+    "effect": "extra_weekend_action",
+    "value": 1,
+    "cost": 12
+  }
+]

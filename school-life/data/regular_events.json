@@ -1,0 +1,62 @@
+[
+  {
+    "id": "midterm_exam",
+    "name": "중간고사",
+    "week": 4,
+    "description": "첫 번째 큰 평가입니다. 지력과 집중도가 가장 중요합니다.",
+    "weights": {
+      "intellect": 1.2,
+      "stamina": 0.3,
+      "charm": 0.2
+    },
+    "linked_character": "seoyeon",
+    "success_score": 70,
+    "fatigue_gain": 8,
+    "clue_id": "repeat_exam"
+  },
+  {
+    "id": "sports_day",
+    "name": "체육대회",
+    "week": 8,
+    "description": "반복되는 사고가 드러날 수 있는 체력 중심 이벤트입니다.",
+    "weights": {
+      "intellect": 0.3,
+      "stamina": 1.2,
+      "charm": 0.3
+    },
+    "linked_character": "minji",
+    "success_score": 70,
+    "fatigue_gain": 10,
+    "clue_id": "repeat_accident"
+  },
+  {
+    "id": "festival",
+    "name": "축제",
+    "week": 12,
+    "description": "감정과 관계의 왜곡에 연결된 매력 중심 이벤트입니다.",
+    "weights": {
+      "intellect": 0.3,
+      "stamina": 0.3,
+      "charm": 1.2
+    },
+    "linked_character": "harin",
+    "success_score": 70,
+    "fatigue_gain": 8,
+    "clue_id": "hidden_relation"
+  },
+  {
+    "id": "final_exam",
+    "name": "기말고사",
+    "week": 16,
+    "description": "루프가 닫히기 전 마지막 평가입니다.",
+    "weights": {
+      "intellect": 1.0,
+      "stamina": 0.5,
+      "charm": 0.5
+    },
+    "linked_character": "seoyeon",
+    "success_score": 90,
+    "fatigue_gain": 12,
+    "clue_id": "vanishing_memory"
+  }
+]

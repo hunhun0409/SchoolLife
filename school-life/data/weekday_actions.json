@@ -1,0 +1,44 @@
+[
+  {
+    "id": "study_problem",
+    "name": "문제 풀이",
+    "category": "공부",
+    "stat": "intellect",
+    "base_value": 6
+  },
+  {
+    "id": "study_review",
+    "name": "복습",
+    "category": "공부",
+    "stat": "intellect",
+    "base_value": 5
+  },
+  {
+    "id": "run",
+    "name": "달리기",
+    "category": "운동",
+    "stat": "stamina",
+    "base_value": 6
+  },
+  {
+    "id": "training",
+    "name": "체력 훈련",
+    "category": "운동",
+    "stat": "stamina",
+    "base_value": 5
+  },
+  {
+    "id": "speech",
+    "name": "발표 연습",
+    "category": "매력",
+    "stat": "charm",
+    "base_value": 6
+  },
+  {
+    "id": "performance",
+    "name": "공연 연습",
+    "category": "매력",
+    "stat": "charm",
+    "base_value": 5
+  }
+]

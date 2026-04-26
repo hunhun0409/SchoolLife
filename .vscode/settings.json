@@ -3,5 +3,6 @@
   "editor.tabSize": 4,
   "files.encoding": "utf8",
   "files.eol": "\n",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "godotTools.editorPath.godot4": "c:\\Users\\hunhun0409\\Downloads\\Godot_v4.6.1-stable_win64.exe\\Godot_v4.6.1-stable_win64.exe"
 }

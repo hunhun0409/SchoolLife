@@ -10,9 +10,23 @@ config_version=5
 
 [application]
 
-config/name="SchoolLife"
+config/name="학교생활"
+run/main_scene="res://scenes/GameRoot.tscn"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+DataManager="*res://scripts/autoload/DataManager.gd"
+GameRules="*res://scripts/autoload/GameRules.gd"
+GameState="*res://scripts/autoload/GameState.gd"
+
+[gui]
+
+theme/custom="res://game/resources/ui/default_theme.tres"
+theme/custom_font="res://game/resources/fonts/BMJUA_ttf.ttf"
+theme/default_font_multichannel_signed_distance_field=true
+theme/default_font_generate_mipmaps=false
 
 [physics]
 

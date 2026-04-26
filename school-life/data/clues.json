@@ -1,0 +1,86 @@
+[
+  {
+    "id": "repeat_date",
+    "name": "반복되는 날짜",
+    "category": "time",
+    "description": "9월 초의 같은 날짜와 요일이 다시 나타납니다."
+  },
+  {
+    "id": "repeat_exam",
+    "name": "반복되는 시험",
+    "category": "time",
+    "description": "시험 문제가 주인공이 기억하는 내용과 일치합니다."
+  },
+  {
+    "id": "memory_keeper",
+    "name": "기억의 관리자",
+    "category": "character",
+    "description": "서연은 반복되는 정보를 이상할 정도로 정확하게 정리합니다."
+  },
+  {
+    "id": "loop_pattern",
+    "name": "루프 패턴",
+    "category": "time",
+    "description": "학기가 끝나면 다시 9월 초로 돌아갑니다."
+  },
+  {
+    "id": "repeat_accident",
+    "name": "반복되는 사고",
+    "category": "incident",
+    "description": "체육대회 즈음 같은 사고가 발생합니다."
+  },
+  {
+    "id": "body_memory",
+    "name": "몸의 기억",
+    "category": "character",
+    "description": "민지는 몸이 기억하는 것처럼 사건이 일어나기 전에 반응합니다."
+  },
+  {
+    "id": "sports_day_anomaly",
+    "name": "체육대회 이상 현상",
+    "category": "incident",
+    "description": "루프마다 체육대회 결과가 조금씩 달라집니다."
+  },
+  {
+    "id": "incident_pattern",
+    "name": "사건 패턴",
+    "category": "incident",
+    "description": "사고는 우연이 아니라 일정한 패턴을 따릅니다."
+  },
+  {
+    "id": "emotion_gap",
+    "name": "감정의 틈",
+    "category": "character",
+    "description": "하린 주변의 감정이 부자연스럽게 변합니다."
+  },
+  {
+    "id": "staged_kindness",
+    "name": "연출된 친절",
+    "category": "character",
+    "description": "하린의 친절은 자연스럽지만 이상하게 연출된 듯합니다."
+  },
+  {
+    "id": "hidden_relation",
+    "name": "숨겨진 관계",
+    "category": "character",
+    "description": "축제 날의 관계 변화가 루프의 핵심과 연결됩니다."
+  },
+  {
+    "id": "mastermind_hint",
+    "name": "배후의 단서",
+    "category": "character",
+    "description": "누군가는 루프를 계속 유지할 이유가 있을지도 모릅니다."
+  },
+  {
+    "id": "school_anomaly",
+    "name": "학교 이상 현상",
+    "category": "incident",
+    "description": "학교의 어떤 장소가 루프마다 다르게 느껴집니다."
+  },
+  {
+    "id": "vanishing_memory",
+    "name": "사라지는 기억",
+    "category": "time",
+    "description": "기말고사 이후 일부 기억이 사라지는 듯합니다."
+  }
+]

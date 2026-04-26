@@ -1,0 +1,45 @@
+[
+  {
+    "id": "seoyeon",
+    "name": "서연",
+    "archetype": "모범생",
+    "stat": "intellect",
+    "weekend_location": "library",
+    "bonus": "학습 효율과 단서 정리",
+    "clue_ids": [
+      "repeat_date",
+      "repeat_exam",
+      "memory_keeper",
+      "loop_pattern"
+    ]
+  },
+  {
+    "id": "minji",
+    "name": "민지",
+    "archetype": "운동부",
+    "stat": "stamina",
+    "weekend_location": "field",
+    "bonus": "체력 성장과 피로도 관리",
+    "clue_ids": [
+      "repeat_accident",
+      "body_memory",
+      "sports_day_anomaly",
+      "incident_pattern"
+    ]
+  },
+  {
+    "id": "harin",
+    "name": "하린",
+    "archetype": "인기인 / 매력",
+    "stat": "charm",
+    "weekend_location": "cafe",
+    "bonus": "호감도 성장과 숨겨진 이벤트 접근",
+    "is_mastermind_candidate": true,
+    "clue_ids": [
+      "emotion_gap",
+      "staged_kindness",
+      "hidden_relation",
+      "mastermind_hint"
+    ]
+  }
+]

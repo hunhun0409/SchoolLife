@@ -1,0 +1,100 @@
+[gd_resource type="Theme" load_steps=9 format=3]
+
+[ext_resource type="FontFile" path="res://game/resources/fonts/BMJUA_ttf.ttf" id="1_jua"]
+[ext_resource type="FontFile" path="res://game/resources/fonts/BMHANNA_11yrs_ttf.ttf" id="2_hanna"]
+[ext_resource type="Texture2D" path="res://game/resources/ui/panels/panel_card_light.png" id="3_card"]
+[ext_resource type="Texture2D" path="res://game/resources/ui/panels/panel_dialogue_soft.png" id="4_dialogue"]
+[ext_resource type="Texture2D" path="res://game/resources/ui/panels/panel_popup_blue.png" id="5_popup"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_card"]
+texture = ExtResource("3_card")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0/
+content_margin_left = 20.0
+content_margin_top = 16.0
+content_margin_right = 20.0
+content_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hud"]
+texture = ExtResource("4_dialogue")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+content_margin_left = 20.0
+content_margin_top = 12.0
+content_margin_right = 20.0
+content_margin_bottom = 12.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_popup"]
+texture = ExtResource("5_popup")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+content_margin_left = 28.0
+content_margin_top = 24.0
+content_margin_right = 28.0
+content_margin_bottom = 24.0
+
+[resource]
+default_font = ExtResource("1_jua")
+default_font_size = 20
+
+DarkBackgroundLabel/base_type = &"Label"
+DarkBackgroundLabel/colors/font_color = Color(0.965, 0.988, 1, 1)
+DarkBackgroundLabel/colors/font_shadow_color = Color(0.075, 0.16, 0.31, 0.6)
+DarkBackgroundLabel/constants/shadow_offset_x = 1
+DarkBackgroundLabel/constants/shadow_offset_y = 2
+Button/fonts/font = ExtResource("1_jua")
+Button/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+Button/colors/font_disabled_color = Color(0.38, 0.48, 0.62, 0.7)
+Button/colors/font_focus_color = Color(0.08, 0.2, 0.4, 1)
+Button/colors/font_hover_color = Color(0.08, 0.24, 0.48, 1)
+Button/colors/font_hover_pressed_color = Color(0.96, 0.99, 1, 1)
+Button/colors/font_pressed_color = Color(0.96, 0.99, 1, 1)
+CheckBox/fonts/font = ExtResource("1_jua")
+CheckBox/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+CheckButton/fonts/font = ExtResource("1_jua")
+CheckButton/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+UserHudPanel/base_type = &"PanelContainer"
+UserHudPanel/styles/panel = SubResource("StyleBoxTexture_hud")
+ItemList/fonts/font = ExtResource("1_jua")
+ItemList/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+ItemList/colors/font_selected_color = Color(0.96, 0.99, 1, 1)
+Label/fonts/font = ExtResource("1_jua")
+Label/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+Label/colors/font_shadow_color = Color(1, 1, 1, 0.65)
+Label/constants/shadow_offset_x = 0
+Label/constants/shadow_offset_y = 1
+LineEdit/fonts/font = ExtResource("1_jua")
+LineEdit/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+LineEdit/colors/font_placeholder_color = Color(0.38, 0.48, 0.62, 0.75)
+LinkButton/fonts/font = ExtResource("1_jua")
+LinkButton/colors/font_color = Color(0.08, 0.28, 0.58, 1)
+LinkButton/colors/font_hover_color = Color(0.03, 0.47, 0.78, 1)
+MenuBar/fonts/font = ExtResource("1_jua")
+MenuBar/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+OptionButton/fonts/font = ExtResource("1_jua")
+OptionButton/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+Panel/styles/panel = SubResource("StyleBoxTexture_card")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_card")
+CharacterPopupPanel/base_type = &"PanelContainer"
+CharacterPopupPanel/styles/panel = SubResource("StyleBoxTexture_popup")
+PopupMenu/fonts/font = ExtResource("1_jua")
+PopupMenu/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+PopupMenu/colors/font_hover_color = Color(0.08, 0.2, 0.4, 1)
+PopupMenu/colors/font_separator_color = Color(0.38, 0.48, 0.62, 0.9)
+RichTextLabel/fonts/normal_font = ExtResource("1_jua")
+RichTextLabel/colors/default_color = Color(0.14, 0.24, 0.39, 1)
+SpinBox/fonts/font = ExtResource("1_jua")
+SpinBox/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+TextEdit/fonts/font = ExtResource("1_jua")
+TextEdit/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+Tree/fonts/font = ExtResource("1_jua")
+Tree/colors/font_color = Color(0.14, 0.24, 0.39, 1)
+Tree/colors/font_selected_color = Color(0.96, 0.99, 1, 1)
+Window/fonts/title_font = ExtResource("2_hanna")
+Window/colors/title_color = Color(0.14, 0.24, 0.39, 1)

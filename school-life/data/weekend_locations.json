@@ -1,0 +1,101 @@
+[
+  {
+    "id": "library",
+    "name": "도서관",
+    "characters": ["seoyeon"],
+    "actions": [
+      {
+        "id": "study_together",
+        "name": "함께 공부하기",
+        "stat": "intellect",
+        "stat_gain": 5,
+        "affection_gain": 8,
+        "fatigue_delta": 3,
+        "clue_id": "repeat_exam"
+      },
+      {
+        "id": "research",
+        "name": "조사하기",
+        "stat": "intellect",
+        "stat_gain": 4,
+        "affection_gain": 5,
+        "fatigue_delta": 2,
+        "clue_id": "repeat_date"
+      }
+    ]
+  },
+  {
+    "id": "field",
+    "name": "운동장",
+    "characters": ["minji"],
+    "actions": [
+      {
+        "id": "train_together",
+        "name": "함께 훈련하기",
+        "stat": "stamina",
+        "stat_gain": 5,
+        "affection_gain": 8,
+        "fatigue_delta": 4,
+        "clue_id": "repeat_accident"
+      },
+      {
+        "id": "sports_prep",
+        "name": "체육대회 준비",
+        "stat": "stamina",
+        "stat_gain": 4,
+        "affection_gain": 5,
+        "fatigue_delta": 3,
+        "clue_id": "sports_day_anomaly"
+      }
+    ]
+  },
+  {
+    "id": "cafe",
+    "name": "카페",
+    "characters": ["harin"],
+    "actions": [
+      {
+        "id": "talk",
+        "name": "대화하기",
+        "stat": "charm",
+        "stat_gain": 5,
+        "affection_gain": 8,
+        "fatigue_delta": 2,
+        "clue_id": "emotion_gap"
+      },
+      {
+        "id": "festival_idea",
+        "name": "축제 아이디어",
+        "stat": "charm",
+        "stat_gain": 4,
+        "affection_gain": 5,
+        "fatigue_delta": 2,
+        "clue_id": "staged_kindness"
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "name": "학교",
+    "characters": ["seoyeon", "minji", "harin"],
+    "actions": [
+      {
+        "id": "rest",
+        "name": "쉬기",
+        "stat": "fatigue",
+        "stat_gain": -8,
+        "affection_gain": 0,
+        "fatigue_delta": -10
+      },
+      {
+        "id": "patrol",
+        "name": "순찰하기",
+        "stat": "charm",
+        "stat_gain": 2,
+        "affection_gain": 3,
+        "fatigue_delta": 1,
+        "clue_id": "school_anomaly"
+      }
+    ]
+  }
+]
